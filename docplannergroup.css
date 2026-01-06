@@ -4,25 +4,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    display: flex;
-    justify-content: center;
+  
 }
 .content {
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 header {
-    height: 70px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
    
+   width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .element a {
     text-decoration: none;
     color: rgb(170, 170, 170);
     text-transform: capitalize;
-   
 }
 .element {
     display: flex;
@@ -37,14 +37,12 @@ main {
     justify-content: center;
     align-items: center;
     gap: 30px;
-
 }
 
 .div1 {
     display: flex;
     flex-direction: column;  
     align-items: center;
-
 }
 .img1 {
     width: 35px;
@@ -130,7 +128,7 @@ select {
     font-size: 18px;
 }
 h1 {
-    font-weight: 300;
+    font-weight: 100;
 }
 h2 {
     font-weight: 200;
@@ -142,6 +140,7 @@ h2 {
 /*star section partie 2 */
 
 .parti2 {
+    width: 950px;
     display: flex;
     justify-content: space-between;
     margin: 40px 10px 40px 0px;
@@ -187,14 +186,102 @@ li {
 
 
 .parti3 {
-    width: 600px;
-    height: 600px;
-    background-image: url(https://www.docplanner.com/logos/stats-bg-image.png);
-    background-repeat: no-repeat;
+      background-color: #bbeee9;
+      display: flex;
+      justify-content: center;
+      gap: 160px;
+}
+.header-p3 { 
+display: flex;
+flex-direction: column;
+width: 30%;
+gap: 30px;
+}
+.titlt-p3 {
+color: #00ccb1;
+margin-top: 70px;
+margin-left: 100px;
 
 }
-body  main .parti3 {
-    background-color: #e5faf8;
-    width: 100%;
-    height: 600px;
+.p-p3 {
+    color: #667070;
+    margin-left: 100px;
+}
+.colone1 {
+   color: #667070;
+}
+.colone2 {
+     color: #667070;
+}
+.div1-s2 {
+    background-color: white;
+    width: 245px;
+    height: 245px;
+   margin-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+.para1-div1 {
+    line-height: 15px;
+    text-align: center;
+}
+.div2-s2 {
+ background-color: white;
+    width: 245px;
+    height: 245px;
+    margin-bottom: 20px;
+       display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    gap: 20px;
+}
+.div3-s2 {
+ background-color: white;
+    width:245px;
+    height: 245px;
+       display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    gap: 20px;
+}
+.div4-s2 {
+ background-color: white;
+    width: 245px;
+    height: 245px;
+       display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    gap: 20px;
+}
+.titr1 {
+    text-align: center;
+    color: #00a892;
+}
+/*  partie 4 */
+.parti4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 100px;
+}
+.p-p4 {
+    width: 470px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    color: #667070;
+}
+.titr-4 {
+    color: #00a892;
+    text-align: center;
+    font-size: 30px;
+   
 }
