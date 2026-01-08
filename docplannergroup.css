@@ -308,7 +308,7 @@ display: flex;
 justify-content: space-between;
 margin: 20px;
 }
-h2 {
+.h22 {
     color: #333333;
     line-height: 80px; 
     font-size: 30px;
